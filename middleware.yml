@@ -1,1 +1,2 @@
 upstreamHost: backend 
+message: Hello from middleware!
