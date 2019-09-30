@@ -1,2 +1,2 @@
-upstreamHost:
-message: Hello from backend!
+upstreamHost: date.jsontest.com
+color: blue
