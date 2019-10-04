@@ -1,2 +1,2 @@
-upstreamHost: middleware 
-color: yellow
+color: green
+upstreamHost: backend 
