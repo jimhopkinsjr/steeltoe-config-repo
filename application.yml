@@ -1,1 +1,13 @@
-message: Hi there from application.yml!
+hystrix:
+  command:
+    default:
+      circuitBreaker:
+        enabled: true
+        requestVolumeThreshold: 20
+        sleepWindowInMilliseconds: 5000
+        errorThresholdPercentage: 50
+  metrics:
+    rollingStats:
+      timeInMilliseconds: 10000
+  stream:
+    validate_certificates: false
